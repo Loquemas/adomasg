@@ -1,0 +1,73 @@
+/* fira-code class
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 700 */
+
+/* fonts */
+
+.fira-code-300 {
+  font-family: "Fira Code", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+/* html elements */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+    
+h1 {
+    color: white;
+    text-align: left;
+    font-family: 'Fira Code';
+}
+  
+h2 {
+    color: #00C202;
+    text-align: left;
+    font-family: 'Fira Code';
+}
+  
+p, 
+li {
+    font-size: 18px;
+}
+    
+a {
+    text-decoration: none;
+}  
+
+
+#home_nav_bar {
+position: absolute;
+width: 1179px;
+height: 96px;
+left: calc(50% - 1179px/2 + 0.5px);
+top: calc(50% - 96px/2);
+}
+
+.banner {
+    position: absolute;
+    width: 353px;
+    height: 34px;
+    left: 57px;
+    top: 55px;
+    
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+

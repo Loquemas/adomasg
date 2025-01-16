@@ -87,17 +87,19 @@ display: flex;
     align-items: center;
 }
 
-.about-button {
+.navbar-about-button {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
-.projects-button {
-
+.navbar-projects-button {
+    height: auto;
+    width: 100%;
 }
 
-.blog-button {
-
+.navbar-blog-button {
+    height: auto;
+    width: 100%;
 }
 
 .socials-container {
@@ -108,11 +110,15 @@ display: flex;
 }
 
 .github-button {
-    margin: 0 25px
+    height: auto;
+    width: 30%;
+    margin: 0 1%;
 }
 
 .linkedin-button {
-    margin: 0 25px;
+    height: auto;
+    width: 30%;
+    margin: 0 1%;
 }
 
 
@@ -166,16 +172,37 @@ display: flex;
     font-family: 'Fira Code';
 }
 
-/* about buttons */
+/* main buttons */
 
 .headernavbar {
     display: flex;
     justify-content: space-evenly;
     margin: 2%;
     width: 100%;
+    
 }
 
-/* about images */
+.header-home-button {
+    height: auto;
+    width: 100%;
+}
+
+.header-about-button {
+    height: auto;
+    width: 100%;
+}
+
+.header-projects-button {
+    height: auto;
+    width: 100%;
+}
+
+.header-blog-button {
+    height: auto;
+    width: 100%;
+}
+
+/* main images */
 
 .main-image-container {
     width: 30%;

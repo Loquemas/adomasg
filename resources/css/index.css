@@ -24,7 +24,12 @@
 
 /* elements */
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
@@ -295,9 +300,9 @@ border-radius: 20px;
     .home-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
-        height: auto;
+        height: 60%;
     }
     
     .navbar {
@@ -322,7 +327,7 @@ border-radius: 20px;
     
     .socials-button {
         height: auto;
-        width: 10%;
+        width: 8%;
         margin: 0 2%;
     }
   }
@@ -360,7 +365,7 @@ border-radius: 20px;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        height: auto;
+        height: 60%;
     }
     
     .navbar {
@@ -420,9 +425,9 @@ border-radius: 20px;
     .home-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
-        height: auto;
+        height: 70%;
     }
     
     .navbar {
@@ -434,7 +439,7 @@ border-radius: 20px;
 
     .navbar-button {
         height: auto;
-        width: 30%;
+        width: 50%;
         margin: 2% 0;
     }
     
@@ -446,7 +451,7 @@ border-radius: 20px;
     
     .socials-button {
         height: auto;
-        width: 10%;
+        width: 15%;
         margin: 0 2%;
     }
   }

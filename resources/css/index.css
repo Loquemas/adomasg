@@ -173,24 +173,36 @@ display: flex;
     
 }
 
-.header-home-button {
+.header-nav-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
     height: auto;
-    width: 100%;
+    margin: 1% 0%;
+   /* border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #FFFFFF; */
 }
 
-.header-about-button {
+.header-nav-button-icon {
+    width: 10%;
     height: auto;
-    width: 100%;
 }
 
-.header-projects-button {
-    height: auto;
+.icon-link {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    color: #95F450;
 }
 
-.header-blog-button {
-    height: auto;
-    width: 100%;
+.icon-text {
+    font-size: 30px;
+    margin: 0% 30%;
+    font-family: 'Fira Code';
+    font-weight: lighter;
 }
 
 /* main images */

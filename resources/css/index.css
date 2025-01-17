@@ -717,4 +717,10 @@ border-radius: 20px;
         color: #FFFFFF
     }
 
+    .video-container {
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+    }
+
   }

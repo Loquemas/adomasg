@@ -48,8 +48,11 @@ li {
 }
     
 a {
-    text-decoration: none;
-} 
+    display: inline-block; /* Allows the anchor tag to respect width and height */
+    text-decoration: none; /* Removes the underline */
+    width: 100%;
+    height: auto;
+  }
 
 /* class specific styles */
 
@@ -89,7 +92,7 @@ display: flex;
 
 .navbar-button {
     height: auto;
-    width: 100%;
+    width: 25%;
 }
 
 .socials-container {
@@ -101,8 +104,8 @@ display: flex;
 
 .socials-button {
     height: auto;
-    width: 30%;
-    margin: 0 1%;
+    width: 5%;
+    margin: 0 2%;
 }
 
 /* terminal text */
@@ -306,20 +309,20 @@ border-radius: 20px;
 
     .navbar-button {
         height: auto;
-        width: 80%;
-        margin: 5% 0;
+        width: 30%;
+        margin: 2% 0;
     }
     
     .socials-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     .socials-button {
         height: auto;
-        width: 30%;
-        margin: 0 1%;
+        width: 10%;
+        margin: 0 2%;
     }
 
   }

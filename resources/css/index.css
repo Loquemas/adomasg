@@ -87,17 +87,7 @@ display: flex;
     align-items: center;
 }
 
-.navbar-about-button {
-    height: auto;
-    width: 100%;
-}
-
-.navbar-projects-button {
-    height: auto;
-    width: 100%;
-}
-
-.navbar-blog-button {
+.navbar-button {
     height: auto;
     width: 100%;
 }
@@ -109,18 +99,11 @@ display: flex;
     align-items: center;
 }
 
-.github-button {
+.socials-button {
     height: auto;
     width: 30%;
     margin: 0 1%;
 }
-
-.linkedin-button {
-    height: auto;
-    width: 30%;
-    margin: 0 1%;
-}
-
 
 /* terminal text */
 
@@ -278,3 +261,53 @@ border-radius: 20px;
     
     color: #FFFFFF;
     }
+
+/* mobile */
+
+@media screen and (max-width: 800px) {
+    .terminal-text-box {
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        color: #FFFFFF;
+    }
+    
+    .ls-text {
+        color: #00C202;
+        font-family: 'Fira Code';
+    }
+    
+    .terminal-text {
+        text-align: left;
+        font-family: 'Fira Code';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 250%;
+        color: #FFFFFF;
+        }
+
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5%;
+    }
+
+    .navbar-button {
+        height: auto;
+        width: 100%;
+        margin: 5% 0;
+    }
+    
+  }

@@ -439,7 +439,7 @@ border-radius: 20px;
 
     .navbar-button {
         height: auto;
-        width: 50%;
+        width: 70%;
         margin: 2% 0;
     }
     
@@ -451,7 +451,7 @@ border-radius: 20px;
     
     .socials-button {
         height: auto;
-        width: 15%;
+        width: 17%;
         margin: 0 2%;
     }
   }

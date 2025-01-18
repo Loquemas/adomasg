@@ -642,12 +642,12 @@ border-radius: 20px;
     .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
     height: 70%;
     width: 90%;
-    margin: 5% 5%;
+    margin: 10% 5%;
     }
 
     .main-image-container {
@@ -674,14 +674,13 @@ border-radius: 20px;
         justify-content: space-evenly;
         width: 100%;
         height: auto;
-        margin: 1% 2%;
+        margin: 1% 0%;
     }
 
     .header-nav-button-icon {
-        width: 50%;
+        width: 25%;
         height: auto;
-        margin: 5%;
-        padding: 10% 25%;
+        padding: 10% 30%;
         border-style: solid;
         border-radius: 10px;
         border-width: 1px;

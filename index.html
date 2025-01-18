@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <!-- meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <!-- title -->
     <title>adomasg - home.</title>
     <!-- css stylesheet -->
+    <link rel="preload" href="./resources/css/index.css" as="style">
     <link rel="stylesheet" href="./resources/css/index.css">
     <!-- notion profile pic favicon -->
     <link rel="mask-icon" href="./resources/images/notion-portrait-circle-small.svg" color="#5bbad5">
     <link rel="icon" href="./resources/images/notion-portrait-circle-small.svg" type="image/svg+xml">
-    <link rel="icon" href="./resources/images/notion-portrait-circle.png" type="image/png">
-    <link rel="apple-touch-icon" href="./resources/images/notion-portrait-circle.png" type="image/png">
-
+    <link rel="icon" href="./resources/images/notion-portrait-circle-small.png" type="image/png">
+    <link rel="apple-touch-icon" href="./resources/images/notion-portrait-circle-small.png" type="image/png">
     <!-- firacode fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- text banner -->
-  <div class="banner">
-    <div class="terminal-text-box">
-      <p class="terminal-text">>> hello i'm adomas. 
-      <br> >> <span class="ls-text">ls</span></p>
-    </div>
-  </div>
-  <div class="home-content">
-    <!-- nav bar section -->
-    <div class="navbar">
-      <div class="navbar-button">
-        <a href="./01-about.html">
-          <img src="./resources/images/icons/home-navbar/about-icon-homenavbar.svg" alt="about" class="button-logo">
-        </a>
-      </div>
-      <div class="navbar-button">
-        <a href="./02-projects.html">
-          <img src="./resources/images/icons/home-navbar/projects-icon-homenavbar.svg" alt="projects" class="button-logo">
-        </a>
-      </div>
-      <div class="navbar-button">
-        <a href="./04-blog.html">
-        <img src="./resources/images/icons/home-navbar/blog-icon-homenavbar.svg" alt="blog" class="button-logo">
-        </a>
+  </head>
+  <body>
+    <!-- text banner -->
+    <div class="banner">
+      <div class="terminal-text-box">
+        <p class="terminal-text">>> hello i'm adomas. 
+        <br> >> <span class="ls-text">ls</span></p>
       </div>
     </div>
-    <!-- socials-->
-    <div class="socials-container">
-      <div class="socials-button">
-        <a href="https://github.com/Loquemas" target="_blank">
-          <img src="./resources/images/icons/social-icons/github-icon.svg" alt="github" class="socials-logo">
-        </a>
-      </div>
-      <div class="socials-button">
-        <a href="https://www.linkedin.com/in/adamgailiunas/" target="_blank">
-          <img src="./resources/images/icons/social-icons/linkedin-icon.svg" alt="linkedin" class="socials-logo">
-        </a>
+    <!-- home content -->
+    <div class="home-content">
+      <!-- nav bar section -->
+      <!-- uses scalable svg icons to change for mobile dimensions -->
+      <nav class="navbar">
+        <div class="navbar-button">
+          <a href="./01-about.html">
+            <img src="./resources/images/icons/home-navbar/about-icon-homenavbar.svg" alt="navigate to about section" class="button-logo">
+          </a>
+        </div>
+        <div class="navbar-button">
+          <a href="./02-projects.html">
+            <img src="./resources/images/icons/home-navbar/projects-icon-homenavbar.svg" alt="navigate to projects section" class="button-logo">
+          </a>
+        </div>
+        <div class="navbar-button">
+          <a href="./04-blog.html">
+          <img src="./resources/images/icons/home-navbar/blog-icon-homenavbar.svg" alt="navigate to blog section" class="button-logo">
+          </a>
+        </div>
+      </nav>
+      <!-- socials -->
+      <div class="socials-container">
+        <div class="socials-button">
+          <a href="https://github.com/Loquemas" target="_blank" rel="noopener noreferrer">
+            <img src="./resources/images/icons/social-icons/github-icon.svg" alt="github profile" class="socials-logo">
+          </a>
+        </div>
+        <div class="socials-button">
+          <a href="https://www.linkedin.com/in/adamgailiunas/" target="_blank" rel="noopener noreferrer">
+            <img src="./resources/images/icons/social-icons/linkedin-icon.svg" alt="linkedin profile" class="socials-logo">
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- footer -->
-  <div class="copyright-footer">
-    <a href="./06-copyright.html">
-      <p class="copyright-text">© ag. 2025. </p>
-    </a>
-  </div>
-</body>
+    <!-- footer -->
+    <footer class="copyright-footer">
+      <a href="./06-copyright.html" class="copyright-link">
+        <p class="copyright-text">© ag. 2025.</p>
+      </a>
+    </footer>
+  </body>
 </html>

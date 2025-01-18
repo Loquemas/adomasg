@@ -723,4 +723,27 @@ border-radius: 20px;
         border-radius: 20px;
     }
 
+    .copyright-footer {
+        position: fixed;
+        width: 119px;
+        height: 51px;
+        right: 0px;
+        bottom: 0px;
+
+        display: flex;
+        align-items: center;
+
+        }
+    
+    .copyright-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 52px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
   }
+

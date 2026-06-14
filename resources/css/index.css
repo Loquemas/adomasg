@@ -139,20 +139,20 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 70%;
-    width: 90%;
-    margin: 5% 5%;
+    width: 100%;
+    padding: 3% 0;
 }
 
 .main-text-box {
     display: flex;
-    margin: 2%;
-    width: 50%;
+    margin: 2% 0;
+    width: 60%;
 }
 
 .main-text {
     width: 100%;
     font-family: 'Fira Code';
+    line-height: 1.8;
 }
 
 /* main buttons */
@@ -240,6 +240,21 @@ border-radius: 20px;
     width: 100%;
     height: auto;
     border-radius: 20px;
+}
+
+/* pdf embed */
+
+.pdf-container {
+    width: 60%;
+    height: auto;
+}
+
+.pdf-embed {
+    width: 100%;
+    height: 750px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background: #000;
 }
 
 /* copyright */
@@ -350,15 +365,14 @@ border-radius: 20px;
         justify-content: center;
         align-items: center;
         align-content: center;
-        height: 70%;
-        width: 90%;
-        margin: 5% 5%;
+        width: 100%;
+        padding: 3% 0;
     }
 
     .main-image-container {
         width: 80%;
     }
-    
+
     .main-image {
         box-sizing: border-box;
         height: auto;
@@ -369,8 +383,16 @@ border-radius: 20px;
 
     .main-text-box {
         display: flex;
-        margin: 2%;
+        margin: 2% 0;
         width: 80%;
+    }
+
+    .pdf-container {
+        width: 80%;
+    }
+
+    .pdf-embed {
+        height: 650px;
     }
 
     .header-nav-button {
@@ -392,7 +414,7 @@ border-radius: 20px;
         border-width: 1px;
         color: #95F450;
     }
-    
+
     .icon-link {
         display: flex;
         flex-direction: column;
@@ -409,7 +431,7 @@ border-radius: 20px;
         font-weight: lighter;
         color: #FFFFFF
     }
-    
+
 }
 
 
@@ -497,15 +519,14 @@ border-radius: 20px;
         justify-content: center;
         align-items: center;
         align-content: center;
-        height: 70%;
-        width: 90%;
-        margin: 5% 5%;
+        width: 100%;
+        padding: 3% 0;
     }
 
     .main-image-container {
         width: 80%;
     }
-    
+
     .main-image {
         box-sizing: border-box;
         height: auto;
@@ -513,11 +534,19 @@ border-radius: 20px;
         border: 1px solid #FFFFFF;
         border-radius: 20px;
     }
-    
+
     .main-text-box {
         display: flex;
-        margin: 2%;
+        margin: 2% 0;
         width: 80%;
+    }
+
+    .pdf-container {
+        width: 85%;
+    }
+
+    .pdf-embed {
+        height: 550px;
     }
 
     .header-nav-button {
@@ -539,7 +568,7 @@ border-radius: 20px;
         border-width: 1px;
         color: #95F450;
     }
-    
+
     .icon-link {
         display: flex;
         flex-direction: column;
@@ -640,32 +669,39 @@ border-radius: 20px;
     }
 
     .main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    height: 70%;
-    width: 90%;
-    margin: 10% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        padding: 5% 0;
     }
 
     .main-image-container {
-    width: 90%;
+        width: 90%;
     }
 
     .main-image {
-    box-sizing: border-box;
-    height: auto;
-    max-width: 100%;
-    border: 1px solid #FFFFFF;
-    border-radius: 20px;
+        box-sizing: border-box;
+        height: auto;
+        max-width: 100%;
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
     }
 
     .main-text-box {
         display: flex;
-        margin: 2%;
-        width: 80%;
+        margin: 2% 0;
+        width: 85%;
+    }
+
+    .pdf-container {
+        width: 92%;
+    }
+
+    .pdf-embed {
+        height: 450px;
     }
 
     .header-nav-button {

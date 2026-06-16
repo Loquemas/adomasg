@@ -2,6 +2,10 @@
 <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 300 to 700 */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 /* fonts */
 
 .fira-code-300 {
@@ -160,7 +164,7 @@ a {
 .headernavbar {
     display: flex;
     justify-content: space-evenly;
-    margin: 2%;
+    margin: 2% 0;
     width: 100%;
 }
 
@@ -226,12 +230,13 @@ border-radius: 20px;
 .projects-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    gap: 1.5rem;
+    padding: 1% 0 6% 0;
 }
 
 .video-container {
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: 20px;
 }
@@ -240,6 +245,13 @@ border-radius: 20px;
     width: 100%;
     height: auto;
     border-radius: 20px;
+}
+
+.section-divider {
+    width: 60%;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0.5rem 0;
 }
 
 /* pdf embed */
@@ -343,20 +355,25 @@ border-radius: 20px;
     .projects-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
+        gap: 1.5rem;
+        padding: 1% 0 6% 0;
     }
-    
+
     .video-container {
-        width: 70%;
+        width: 80%;
         height: auto;
         border-radius: 20px;
     }
-    
+
     .website-design {
         width: 100%;
         height: auto;
         border-radius: 20px;
+    }
+
+    .section-divider {
+        width: 80%;
     }
 
     .main-content {
@@ -498,21 +515,27 @@ border-radius: 20px;
     .projects-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
+        gap: 1.5rem;
+        padding: 1% 0 6% 0;
     }
-    
+
     .video-container {
-        width: 70%;
+        width: 85%;
         height: auto;
         border-radius: 20px;
     }
-    
+
     .website-design {
         width: 100%;
         height: auto;
         border-radius: 20px;
     }
+
+    .section-divider {
+        width: 85%;
+    }
+
     .main-content {
         display: flex;
         flex-direction: column;
@@ -652,20 +675,25 @@ border-radius: 20px;
     .projects-content {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
+        gap: 1.5rem;
+        padding: 1% 0 6% 0;
     }
-    
+
     .video-container {
-        width: 70%;
+        width: 92%;
         height: auto;
         border-radius: 20px;
     }
-    
+
     .website-design {
         width: 100%;
         height: auto;
         border-radius: 20px;
+    }
+
+    .section-divider {
+        width: 92%;
     }
 
     .main-content {

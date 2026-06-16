@@ -30,7 +30,7 @@ html {
 
 body {
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #111111;
     color: white;
     text-align: center;
     font-family: 'Fira Code', Arial, sans-serif;
@@ -82,7 +82,7 @@ a {
 
     color: #FFFFFF;
 
-    border: 1px solid #000000;
+    border: 1px solid #111111;
 }
 
 /* buttons */
@@ -147,16 +147,40 @@ a {
     padding: 3% 0;
 }
 
+.about-page-main {
+    padding-top: 1rem;
+}
+
 .main-text-box {
     display: flex;
+    flex-direction: column;
     margin: 2% 0;
     width: 60%;
+    max-width: 660px;
+}
+
+.post-date {
+    font-family: 'Fira Code', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: #909090;
+    text-align: left;
+    margin: 2rem 0 0.25rem 0;
 }
 
 .main-text {
     width: 100%;
-    font-family: 'Fira Code';
+    font-family: 'Fira Code', monospace;
+}
+
+.blog-text {
+    width: 100%;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
     line-height: 1.8;
+    color: #D4D4D4;
+    text-align: left;
+    text-indent: 1.5em;
 }
 
 /* main buttons */
@@ -190,7 +214,7 @@ a {
     justify-content: center;
     gap: 10px;
     width: 100%;
-    color: #95F450;
+    color: #8BC94A;
 }
 
 .icon-text {
@@ -203,7 +227,16 @@ a {
 /* main images */
 
 .main-image-container {
-    width: 50%;
+    width: 35%;
+}
+
+.blog-image-container {
+    width: 60%;
+    max-width: 660px;
+}
+
+.blog-image-container .main-image {
+    filter: brightness(0.75);
 }
 
 .main-image {
@@ -235,8 +268,12 @@ border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    padding: 1% 0 6% 0;
+    gap: 3vw;
+    padding: 0 0 6% 0;
+}
+
+.projects-content h2 {
+    margin-top: 0;
 }
 
 .video-container {
@@ -249,6 +286,7 @@ border-radius: 20px;
     width: 100%;
     height: auto;
     border-radius: 20px;
+    filter: brightness(0.75);
 }
 
 .section-divider {
@@ -271,6 +309,7 @@ border-radius: 20px;
     border: 1px solid #FFFFFF;
     border-radius: 20px;
     background: #000;
+    filter: brightness(0.75);
 }
 
 /* copyright */
@@ -360,8 +399,8 @@ border-radius: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
-        padding: 1% 0 6% 0;
+        gap: 3vw;
+        padding: 0 0 6% 0;
     }
 
     .video-container {
@@ -433,7 +472,7 @@ border-radius: 20px;
         border-style: solid;
         border-radius: 10px;
         border-width: 1px;
-        color: #95F450;
+        color: #8BC94A;
     }
 
     .icon-link {
@@ -442,7 +481,7 @@ border-radius: 20px;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        color: #95F450;
+        color: #8BC94A;
     }
 
     .icon-text {
@@ -520,8 +559,8 @@ border-radius: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
-        padding: 1% 0 6% 0;
+        gap: 3vw;
+        padding: 0 0 6% 0;
     }
 
     .video-container {
@@ -593,7 +632,7 @@ border-radius: 20px;
         border-style: solid;
         border-radius: 10px;
         border-width: 1px;
-        color: #95F450;
+        color: #8BC94A;
     }
 
     .icon-link {
@@ -602,7 +641,7 @@ border-radius: 20px;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        color: #95F450;
+        color: #8BC94A;
     }
 
     .icon-text {
@@ -680,8 +719,8 @@ border-radius: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
-        padding: 1% 0 6% 0;
+        gap: 3vw;
+        padding: 0 0 6% 0;
     }
 
     .video-container {
@@ -752,7 +791,7 @@ border-radius: 20px;
         border-style: solid;
         border-radius: 10px;
         border-width: 1px;
-        color: #95F450;
+        color: #8BC94A;
     }
     
     .icon-link {
@@ -761,7 +800,7 @@ border-radius: 20px;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        color: #95F450;
+        color: #8BC94A;
     }
 
     .icon-text {
